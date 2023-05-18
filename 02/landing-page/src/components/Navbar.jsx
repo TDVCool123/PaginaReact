@@ -1,4 +1,4 @@
-import logo from "../images/logo.svg";
+import logo from "../images/Logo_UPB.jpeg";
 import { SectionLinks } from "./SectionLinks";
 import { socialLinks } from "../data/data";
 import { SocialLinks } from "./SocialLinks";
