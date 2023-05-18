@@ -2,7 +2,9 @@ import tour1 from "../images/tour-1.jpeg";
 import tour2 from "../images/tour-2.jpeg";
 import tour3 from "../images/tour-3.jpeg";
 import tour4 from "../images/tour-4.jpeg";
-
+import prisma from "../images/prisma.jpeg"
+import interactiva from "../images/interactiva.jpeg"
+import wow from "../images/wow.jpeg"
 export const links = [
   {
     id: 1,
@@ -14,11 +16,11 @@ export const links = [
   },
   {
     id: 3,
-    link: "services",
+    link: "Aprenderas",
   },
   {
     id: 4,
-    link: "tours",
+    link: "Aulas",
   },
 ];
 
@@ -41,62 +43,47 @@ export const services = [
   {
     id: 1,
     icon: "fas fa-wallet fa-fw",
-    title: "saving money",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
+    title: "Programar desde 0",
+    text: "Muy importante para comenzar en este mundo.",
   },
   {
     id: 2,
     icon: "fas fa-tree fa-fw",
-    title: "endless hiking",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
+    title: "Programacion Competitiva",
+    text: "ICPC, Hackatons y mucho mas para los que buscan retos.",
   },
   {
     id: 3,
     icon: "fas fa-socks fa-fw",
-    title: "amazing comfort",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
+    title: "Desarrollo de IA",
+    text: "Ultimas tecnologias que crecen cada vez mas.",
   },
 ];
 
 export const tours = [
   {
     id: 1,
-    image: tour1,
+    image: prisma,
     date: "august 26th, 2020",
-    title: "Tibet Adventure",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: "china",
+    title: "Aula Prisma",
+    info: ` Aula exclusiva para estudiantes de la carrera. Equipada con la mejor señal del campus y muy comoda.`/*,
+  location: "china",
     duration: 6,
-    cost: 2100,
+    cost: 2100,*/
   },
   {
     id: 2,
-    image: tour2,
-    date: "october 1th, 2020",
-    title: "best of java",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: "indonesia",
-    duration: 11,
-    cost: 1400,
+    image: interactiva,
+    date: "august 26th, 2020",
+    title: "Aulas Interactivas",
+    info: ` Aulas con capacidad de dar clases duales: Virtual y prescencial a la vez.`
   },
   {
     id: 3,
-    image: tour3,
+    image: wow,
     date: "september 15th, 2020",
-    title: "explore hong kong",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: "hong kong",
-    duration: 8,
-    cost: 5000,
-  },
-  {
-    id: 4,
-    image: tour4,
-    date: "december 5th, 2019",
-    title: "kenya highlights",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: "kenya",
-    duration: 20,
-    cost: 3300,
+    title: "Aula WoW",
+    info: `Aula tipo sala de reunion para acostumbrar a los alumnos a la vida laboral.`,
+    
   },
 ];

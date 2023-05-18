@@ -1,14 +1,14 @@
+import main from "../images/main-sistemas.jpeg"
 const Hero = () => {
     return (
       <section className='hero' id='home'>
         <div className='hero-banner'>
-          <h1>backroads app</h1>
+          <h1>Ingenieria en Sistemas Computacionales</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-            explicabo debitis est autem dicta.
+            La programacion en tus manos
           </p>
-          <a href='#tours' className='btn hero-btn '>
-            explore tours
+          <a href='#tours' className={'btn hero-btn '}>
+            Aulas
           </a>
         </div>
       </section>
